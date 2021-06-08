@@ -1,0 +1,6 @@
+Connect with people
+Find people with similar interests
+Share media and chat with eachother 
+-----------------------------------
+
+Refs allow to access DOM Elements with ReactJS

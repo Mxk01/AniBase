@@ -1,0 +1,137 @@
+select {
+  margin-top: 10px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-padding-end: 20px;
+  -moz-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -moz-padding-start: 2px;
+  background-color: rgb(
+    214,
+    214,
+    214
+  ); /* Fallback color if gradients are not supported */
+
+  background-image: url("https://fairwayframes.com/wp-content/uploads/2018/06/arrow-select.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #555;
+  background-color: transparent;
+  padding: 1rem;
+  border: 0;
+  height: 2vw;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+}
+option:hover {
+  background-color: black !important;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.devs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.devs > div {
+  margin: 10px;
+}
+
+.devs > div > img {
+  border-radius: 50%;
+}
+
+.dev__mainContainer {
+  margin-top: 2rem;
+  display: flex;
+
+  flex-direction: row;
+}
+
+.selects__container {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .anime {
+    width: auto;
+  }
+  .dev__mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+  }
+  .column__items {
+    display: flex;
+    flex-direction: column;
+  }
+  select {
+    display: flex;
+    flex-direction: column;
+  }
+  option {
+    padding: 15px;
+  }
+}
+
+.anime {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.anime > div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime > div > img {
+  border-radius: 50%;
+}
+.anime__container {
+  display: flex;
+  flex-direction: row;
+}
+.statuses {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.statuses h4 {
+  margin: 3px;
+}
+button:hover {
+  background-color: rgb(14, 12, 12);
+  color: white;
+}
+button {
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,4 @@
+Use an API instead of plain js array 
+Create categories
+Store data about user preferences 
+Log in user with OAuth
