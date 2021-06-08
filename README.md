@@ -1,5 +1,5 @@
-#Anibase is a project I made to learn more about ReactJS.
-#It is open source and cost free. 
+# Anibase is a project I made to learn more about ReactJS.
+## It is open source and cost free. 
 ![cowboybebop](https://user-images.githubusercontent.com/61979889/121266666-9b9f0500-c8c3-11eb-9e6d-a4414d6913c7.PNG)
 
 # Getting Started with Create React App
